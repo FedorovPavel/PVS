@@ -1,0 +1,3 @@
+update-rc.d quagga defaults
+service networking restart
+/bin/sh -e /etc/rc.local
